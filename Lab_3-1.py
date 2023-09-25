@@ -8,4 +8,19 @@ if not ((magic_charge >= 90) and (shield_charge >= 75)):
 	print ("The dragon burns you to a crisp.")
 else:
 	print ("You defeated the dragon! But the princess is in another castle.")
+
 """
+
+magic_charge = 90
+
+shield_charge = 75
+
+if not magic_charge >= 90:
+	print ("dragon wont eat you")
+if not shield_charge >= 75:
+	print ("dragon will eat you")
+
+if (magic_charge >= 90) and (shield_charge >= 75):
+	print ("you can defeat the dragon")
+else:
+	print ("the dragon gonna eat you")
